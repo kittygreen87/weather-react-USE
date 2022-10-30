@@ -1,12 +1,13 @@
 h1 {
   color: #f7c9ed;
-  font-size: 29px;
+  
   font-weight: 800;
   line-height: 28px;
   margin-bottom: 0;
   text-align: left;
   text-shadow: 2px 2px #25155f;
 }
+
 
 .Weather {
   font-family: arial, sans-serif;
@@ -17,7 +18,7 @@ h1 {
 }
 
 .Weather h1 {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
@@ -39,17 +40,17 @@ h1 {
 .Weather .temperature {
   font-weight: bold;
   color: #f7c9ed;
-  font-size: 54px;
-  line-height: 64px;
+  font-size: 61px;
+  line-height: 69px;
   margin-left: 10px;
-  font-weight: 550;
+  font-weight: 500;
 }
 .WeatherTemperature.unit{
     color:rgb(18, 3, 72)
 }
 
 .Weather canvas {
-  margin: 10px auto;
+  margin: 15px auto;
 }
 
 .Weather .unit {
