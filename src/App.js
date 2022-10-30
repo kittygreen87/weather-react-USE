@@ -1,19 +1,29 @@
 import "./App.css";
-import WeatherSearchbar from "./WeatherSearchbar.js";
-
-function App() {
+import React from "react";
+import Weather from "./Weather.js";
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Quick Weather Search</h1>
-        <p>
-          Use the search bar below to quickly view current weather for any
-          location.
-        </p>
-        <WeatherSearchbar />
+        <Weather defaultCity="New York" />
+
+        <footer>
+          <div className="row">
+            <div class="col-12">
+              <a
+                href="https://github.com/kittygreen87/Weather-React-USE"
+                class="source-link"
+              >
+                Open Source Code
+              </a>
+              &nbsp;by Catherine Green; Hosted on Netlify.
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   );
 }
+     
 
-export default App;
+
