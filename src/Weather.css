@@ -38,16 +38,14 @@ h1 {
   margin-left: 10px;
   font-weight: 500;
 }
-.WeatherTemperature.unit{
-    color:rgb(18, 3, 72)
-}
+
 
 .Weather canvas {
   margin: 12px auto;
 }
 
 .Weather .unit {
-  color: rgb(33, 33, 33);
+  color: rgb(18, 3, 72);
   font-size: 16px;
   font-weight: 400;
   position: relative;
