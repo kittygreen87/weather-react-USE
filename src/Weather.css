@@ -1,13 +1,11 @@
 h1 {
   color: #f7c9ed;
-  
   font-weight: 800;
   line-height: 28px;
-  margin-bottom: 5;
+  padding: 5px;
   text-align: left;
   text-shadow: 2px 2px #25155f;
 }
-
 
 .Weather {
   font-family: arial, sans-serif;
@@ -17,12 +15,6 @@ h1 {
   color: rgb(18, 3, 72);
 }
 
-.Weather h1 {
-  font-size: 34px;
-  font-weight: 100;
-  margin: 20px 0 0 0;
-  line-height: 29px;
-}
 
 .Weather ul {
   margin: 5;
@@ -35,6 +27,7 @@ h1 {
   line-height: 10px;
   list-style: none;
   color: #f7c9ed;
+  text-align: left;
 }
 
 .Weather .temperature {
@@ -50,7 +43,7 @@ h1 {
 }
 
 .Weather canvas {
-  margin: 15px auto;
+  margin: 12px auto;
 }
 
 .Weather .unit {
@@ -66,15 +59,6 @@ h1 {
   text-align: center;
 }
 
-.App-header {
-  background-color: #031a47;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
-  
-  color: white;
-}
 
 a:link {
   color: rgb(87, 46, 234);
